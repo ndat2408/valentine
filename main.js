@@ -13,7 +13,10 @@ imgSize = () =>{
 imgSize()
 
 window.addEventListener("load",()=>{
-    document.querySelector("#loading").style.opacity = 0
+    setTimeout(function(){
+        document.querySelector("#loading").style.opacity = 0;
+    }, 1000); 
+    
 
 })
 window.addEventListener("resize", imgSize);
