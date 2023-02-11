@@ -12,4 +12,8 @@ imgSize = () =>{
 
 imgSize()
 
+window.addEventListener("load",()=>{
+    document.querySelector("#loading").style.opacity = 0
+
+})
 window.addEventListener("resize", imgSize);
